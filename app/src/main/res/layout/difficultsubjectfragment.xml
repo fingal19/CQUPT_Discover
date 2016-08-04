@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="62px"
+    android:weightSum="1"
+    android:paddingRight="62px"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36px" />
+
+    <LinearLayout
+        android:id="@+id/ll_difficult"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30px"
+        android:weightSum="1">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_spinner_difficult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardBackgroundColor="@color/card_view">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/sp_difficult"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35px" />
+
+    <com.teamwork.discover.MyView.MWRateView.DifficultRateView.DifficultRatePieView
+        android:id="@+id/mv_difficult_pie"
+        android:layout_width="319dp"
+        android:layout_height="221dp" />
+
+    <com.teamwork.discover.MyView.MWRateView.DifficultRateView.MySubjectRoudRect
+        android:id="@+id/mv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
