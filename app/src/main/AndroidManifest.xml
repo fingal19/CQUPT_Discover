@@ -15,7 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+        <activity android:name=".Personal" />
+        <activity android:name=".NewStrategyActivity" />
+        <activity android:name=".BigDataActivity"></activity>
+=======
         <activity android:name=".Personal"></activity>
+>>>>>>> origin/fingal19/master
     </application>
 
 </manifest>

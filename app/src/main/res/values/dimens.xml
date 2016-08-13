@@ -3,7 +3,15 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+<<<<<<< HEAD
+    <dimen name="tittle">48px</dimen>
+    <dimen name="elevation">50dp</dimen>
+    <dimen name="tab_name">42px</dimen>
+    <dimen name="topic">40px</dimen>
+    <dimen name="details">35px</dimen>
+=======
     <dimen name="tittle">20dp</dimen>
     <dimen name="elevation">50dp</dimen>
+>>>>>>> origin/fingal19/master
 
 </resources>
