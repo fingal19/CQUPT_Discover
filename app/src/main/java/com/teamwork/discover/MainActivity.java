@@ -97,12 +97,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //分别进入 新生攻略 大数据 重邮风采 三个板块
         switch (view.getId()){
             case R.id.iv_1:
+<<<<<<< HEAD
                 Intent intent_newbie = new Intent(MainActivity.this,NewStrategyActivity.class);
                 startActivity(intent_newbie);
                 break;
             case R.id.iv_2:
                 Intent intent_bigData = new Intent(MainActivity.this,BigDataActivity.class);
                 startActivity(intent_bigData);
+=======
+
+                break;
+            case R.id.iv_2:
+
+>>>>>>> origin/fingal19/master
                 break;
             case R.id.iv_3:
 

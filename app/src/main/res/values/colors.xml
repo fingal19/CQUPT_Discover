@@ -3,6 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+<<<<<<< HEAD
     <color name="dark_grey">#b8b8b8</color>
     <color name="expansion">#589ce9</color>
     <color name="card_view">#fff</color>
@@ -11,4 +12,6 @@
     <color name="third">#e183c0</color>
     <color name="fourth">#88d9f2</color>
     <color name="paint_text">#222222</color>
+=======
+>>>>>>> origin/fingal19/master
 </resources>

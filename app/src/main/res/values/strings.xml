@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Discover</string>
+<<<<<<< HEAD
     <string name="identify">identify</string>
     <string name="expansion">展开</string>
     <string name="packUp">收起</string>
@@ -436,4 +437,8 @@ b、	因留校察看处分未取消的。
     <!--BigData com.teamwork.discover.Fragment-->
 
 
+=======
+
+    <string name="identify">identify</string>
+>>>>>>> origin/fingal19/master
 </resources>
