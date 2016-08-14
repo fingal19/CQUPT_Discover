@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/CQUPT_Discover.iml" filepath="$PROJECT_DIR$/CQUPT_Discover.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/Discover.iml" filepath="$PROJECT_DIR$/Discover.iml" />
->>>>>>> origin/fingal19/master
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

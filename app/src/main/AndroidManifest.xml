@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.teamwork.discover">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,13 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".Personal" />
         <activity android:name=".NewStrategyActivity" />
         <activity android:name=".BigDataActivity"></activity>
-=======
-        <activity android:name=".Personal"></activity>
->>>>>>> origin/fingal19/master
+
     </application>
 
 </manifest>

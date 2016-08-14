@@ -10,10 +10,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.teamwork.discover.Adapter.ViewPagerAdapter.TabViewPagerAdapter;
-import com.teamwork.discover.Fragment.BigDataFragment.DifficultSubjectFragment;
-import com.teamwork.discover.Fragment.BigDataFragment.AfterGraduationFragment;
-import com.teamwork.discover.Fragment.BigDataFragment.MaleFemaleRateFragment;
+import com.teamwork.discover.adapter.ViewPagerAdapter.TabViewPagerAdapter;
+import com.teamwork.discover.fragment.BigDataFragment.DifficultSubjectFragment;
+import com.teamwork.discover.fragment.BigDataFragment.AfterGraduationFragment;
+import com.teamwork.discover.fragment.BigDataFragment.MaleFemaleRateFragment;
 
 public class BigDataActivity extends AppCompatActivity {
     private TabLayout mTabLayout;

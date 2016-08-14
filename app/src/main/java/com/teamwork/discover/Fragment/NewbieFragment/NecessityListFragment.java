@@ -1,4 +1,4 @@
-package com.teamwork.discover.Fragment.NewbieFragment;
+package com.teamwork.discover.fragment.NewbieFragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

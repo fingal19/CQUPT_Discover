@@ -9,7 +9,7 @@ import android.view.View;
 
 import com.teamwork.discover.R;
 
-import com.teamwork.discover.Data.DifficultSubjectRate;
+import com.teamwork.discover.data.DifficultSubjectRate;
 
 /**
  * Created by pcx on 2016/8/13.

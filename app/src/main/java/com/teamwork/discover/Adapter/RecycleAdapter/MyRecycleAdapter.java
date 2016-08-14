@@ -1,4 +1,4 @@
-package com.teamwork.discover.Adapter.RecycleAdapter;
+package com.teamwork.discover.adapter.RecycleAdapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;

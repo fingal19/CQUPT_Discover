@@ -1,4 +1,4 @@
-package com.teamwork.discover.Data;
+package com.teamwork.discover.data;
 
 /**
  * Created by pcx on 2016/8/11.
