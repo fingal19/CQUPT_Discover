@@ -1,4 +1,4 @@
-package com.teamwork.discover.Fragment.BigDataFragment;
+package com.teamwork.discover.fragment.BigDataFragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,7 +11,7 @@ import android.widget.Spinner;
 
 import com.teamwork.discover.R;
 
-import com.teamwork.discover.Data.GraduateRate;
+import com.teamwork.discover.data.GraduateRate;
 import com.teamwork.discover.MyView.MWRateView.AfterGraduate.GraduatePieView;
 
 /**

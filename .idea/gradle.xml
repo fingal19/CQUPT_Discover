@@ -5,11 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
         <option name="gradleHome" value="D:\360Downloads\android-studio-ide-145.3070098-windows\android-studio\gradle\gradle-2.10" />
-=======
-        <option name="gradleHome" value="D:\AndroidStudio\AS2.2\android-studio-ide-145.2915834-windows\android-studio\gradle\gradle-2.10" />
->>>>>>> origin/fingal19/master
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />

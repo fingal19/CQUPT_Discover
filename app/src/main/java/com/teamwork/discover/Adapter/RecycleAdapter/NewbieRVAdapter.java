@@ -1,15 +1,16 @@
-package com.teamwork.discover.Adapter.RecycleAdapter;
+package com.teamwork.discover.adapter.RecycleAdapter;
 
 import android.graphics.Bitmap;
 import android.support.annotation.LayoutRes;
 import android.text.TextPaint;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.teamwork.discover.R;
 import java.util.List;
-import com.teamwork.discover.Bean.NewbieLifeTextBean;
+import com.teamwork.discover.bean.NewbieLifeTextBean;
 
 /**
  * Created by pcx on 2016/8/6.
@@ -18,8 +19,9 @@ import com.teamwork.discover.Bean.NewbieLifeTextBean;
 public class NewbieRVAdapter extends MyRecycleAdapter<NewbieLifeTextBean, NewbieRVAdapter.NewbieViewHolder> {
     private List<Bitmap> bitmapList;
 
-    public NewbieRVAdapter(List list) {
+    public NewbieRVAdapter(List list,List<Bitmap> bitmapList) {
         super(list);
+        this.bitmapList = bitmapList;
     }
 
 
@@ -29,6 +31,15 @@ public class NewbieRVAdapter extends MyRecycleAdapter<NewbieLifeTextBean, Newbie
             holder.textView_name.setText(dataList.get(0).getName_place_list()[position]);
             holder.textView_local.setText(dataList.get(0).getLocal_list()[position]);
             holder.textView_intro.setText(dataList.get(0).getIntro_list()[position]);
+        }
+        if (bitmapList.size() != 0){
+            holder.imageView.setImageBitmap(bitmapList.get(position));
+            holder.imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    
+                }
+            });
         }
     }
 
@@ -56,18 +67,14 @@ public class NewbieRVAdapter extends MyRecycleAdapter<NewbieLifeTextBean, Newbie
 
         public NewbieViewHolder(ViewGroup parent, @LayoutRes int resId) {
             super(parent, resId);
+            imageView = getView(R.id.iv_newbie);
             textView_name = getView(R.id.tv_rv_item_name);
             textView_local = getView(R.id.tv_rv_item_local);
             textView_intro = getView(R.id.tv_rv_item_intro);
             TextPaint tp = textView_name.getPaint();
             tp.setFakeBoldText(true);
             imageView = getView(R.id.iv_newbie);
-            imageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
 
-                }
-            });
             textView_name = getView(R.id.tv_rv_item_name);
             textView_local = getView(R.id.tv_rv_item_local);
         }

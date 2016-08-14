@@ -11,7 +11,7 @@ import android.view.View;
 
 import com.teamwork.discover.R;
 
-import com.teamwork.discover.Data.GraduateRate;
+import com.teamwork.discover.data.GraduateRate;
 
 /**
  * Created by pcx on 2016/8/13.

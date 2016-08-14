@@ -12,15 +12,17 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.teamwork.discover.Adapter.ViewPagerAdapter.TabViewPagerAdapter;
-import com.teamwork.discover.Fragment.NewbieFragment.DailyLifeFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.DormitorySituationFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.EntrancethingsFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.NearbyCateFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.NearbyScenicFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.NecessityListFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.QQGroupFragment;
-import com.teamwork.discover.Fragment.NewbieFragment.RouteToSchoolFragment;
+import com.teamwork.discover.adapter.ViewPagerAdapter.TabViewPagerAdapter;
+import com.teamwork.discover.com.teamwork.discover.tool.NetWork;
+import com.teamwork.discover.data.DataUrl;
+import com.teamwork.discover.fragment.NewbieFragment.DailyLifeFragment;
+import com.teamwork.discover.fragment.NewbieFragment.DormitorySituationFragment;
+import com.teamwork.discover.fragment.NewbieFragment.EntrancethingsFragment;
+import com.teamwork.discover.fragment.NewbieFragment.NearbyCateFragment;
+import com.teamwork.discover.fragment.NewbieFragment.NearbyScenicFragment;
+import com.teamwork.discover.fragment.NewbieFragment.NecessityListFragment;
+import com.teamwork.discover.fragment.NewbieFragment.QQGroupFragment;
+import com.teamwork.discover.fragment.NewbieFragment.RouteToSchoolFragment;
 
 public class NewStrategyActivity extends AppCompatActivity{
     private TabLayout mTabLayout;
@@ -40,6 +42,7 @@ public class NewStrategyActivity extends AppCompatActivity{
     private TabViewPagerAdapter mTabViewPagerAdapter;
 
     private TextView mTextView_tv;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

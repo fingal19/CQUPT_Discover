@@ -10,7 +10,7 @@ import android.view.View;
 
 import com.teamwork.discover.R;
 
-import com.teamwork.discover.Data.MWRate;
+import com.teamwork.discover.data.MWRate;
 
 /**
  * Created by pcx on 2016/8/11.

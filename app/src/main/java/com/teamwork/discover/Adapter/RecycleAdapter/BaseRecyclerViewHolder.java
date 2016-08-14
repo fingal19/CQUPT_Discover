@@ -1,4 +1,4 @@
-package com.teamwork.discover.Adapter.RecycleAdapter;
+package com.teamwork.discover.adapter.RecycleAdapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;

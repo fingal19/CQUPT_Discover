@@ -1,4 +1,4 @@
-package com.teamwork.discover.Bean;
+package com.teamwork.discover.bean;
 
 /**
  * Created by pcx on 2016/8/7.

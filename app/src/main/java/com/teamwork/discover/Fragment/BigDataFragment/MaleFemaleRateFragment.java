@@ -1,4 +1,4 @@
-package com.teamwork.discover.Fragment.BigDataFragment;
+package com.teamwork.discover.fragment.BigDataFragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

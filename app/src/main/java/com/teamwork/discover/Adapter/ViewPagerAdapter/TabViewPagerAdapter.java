@@ -1,4 +1,4 @@
-package com.teamwork.discover.Adapter.ViewPagerAdapter;
+package com.teamwork.discover.adapter.ViewPagerAdapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
